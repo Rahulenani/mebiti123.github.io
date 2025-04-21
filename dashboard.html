@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="firebase.js"></script>
+  <script defer src="dashboard.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Dashboard</h1>
+    <button onclick="logout()">Logout</button>
+  </header>
+  <main>
+    <h2>Welcome, <span id="username"></span></h2>
+    <h3>Wallet Balance: <span id="wallet">₹0</span></h3>
+    <h3>Investment Options</h3>
+    <div class="cards">
+      <div class="card">5% Plan</div>
+      <div class="card">6% Plan</div>
+      <div class="card">7% Plan</div>
+    </div>
+    <h3>Gifts</h3>
+    <div class="cards">
+      <div class="card">Gift 1</div><div class="card">Gift 2</div><div class="card">Gift 3</div>
+      <div class="card">Gift 4</div><div class="card">Gift 5</div><div class="card">Gift 6</div>
+      <div class="card">Gift 7</div><div class="card">Gift 8</div><div class="card">Gift 9</div><div class="card">Gift 10</div>
+    </div>
+  </main>
+</body>
+</html>
